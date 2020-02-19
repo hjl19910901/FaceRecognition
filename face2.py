@@ -24,7 +24,7 @@ def CatchUsbVideo(window_name, camera_idx):
         grey = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         # 人脸检测，1.2和2分别为图片缩放比例和需要检测的有效点数
-        faceRects = classfier.detectMultiScale(grey, scaleFactor=1.2, minNeighbors=3, minSize=(32, 32))
+        faceRects = classfier.detectMultiScale(grey, scaleFactor=1.5, minNeighbors=3, minSize=(32, 32))
         if len(faceRects) > 0:  # 大于0则检测到人脸
             for faceRect in faceRects:  # 单独框出每一张人脸
                 x, y, w, h = faceRect
