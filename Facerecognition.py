@@ -1,7 +1,6 @@
 import cv2  # opencv库
 # 读取图片
 image = cv2.imread('image/2.jpg')
-
 #加载人脸模型库
 face_model=cv2.CascadeClassifier('plugins/opencv/haarcascades/haarcascade_frontalcatface.xml')
 #图片进行灰度处理

@@ -29,8 +29,7 @@ def CatchUsbVideo(window_name, camera_idx):
             for faceRect in faceRects:  # 单独框出每一张人脸
                 x, y, w, h = faceRect
                 cv2.rectangle(frame, (x - 10, y - 10), (x + w + 10, y + h + 10), color, 2)
-
-        # 显示图像
+# 显示图像
         cv2.imshow(window_name, frame)
         c = cv2.waitKey(10)
         if c & 0xFF == ord('q'):
