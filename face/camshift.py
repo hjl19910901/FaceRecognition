@@ -34,8 +34,8 @@ import numpy as np
 import cv2 as cv
 
 # local module
-import video
-from video import presets
+from face import video
+from face.video import presets
 
 
 class App(object):

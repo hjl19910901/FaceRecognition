@@ -49,7 +49,7 @@ def process_threaded(img, filters, threadn = 8):
 
 if __name__ == '__main__':
     import sys
-    from common import Timer
+    from face.common import Timer
 
     print(__doc__)
     try:

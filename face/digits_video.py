@@ -3,18 +3,14 @@
 # Python 2/3 compatibility
 from __future__ import print_function
 
-import numpy as np
-import cv2 as cv
-
 # built-in modules
 import os
 import sys
 
 # local modules
-import video
-from common import mosaic
+from face import video
 
-from digits import *
+from face.digits import *
 
 def main():
     try:

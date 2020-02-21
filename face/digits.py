@@ -28,7 +28,6 @@ Usage:
 from __future__ import print_function
 
 # built-in modules
-from multiprocessing.pool import ThreadPool
 
 import cv2 as cv
 
@@ -36,7 +35,7 @@ import numpy as np
 from numpy.linalg import norm
 
 # local modules
-from common import clock, mosaic
+from face.common import mosaic
 
 
 

@@ -21,11 +21,9 @@ PY3 = sys.version_info[0] == 3
 if PY3:
     xrange = range
 
-import numpy as np
-import cv2 as cv
 from multiprocessing.pool import ThreadPool
 
-from digits import *
+from face.digits import *
 
 def cross_validate(model_class, params, samples, labels, kfold = 3, pool = None):
     n = len(samples)

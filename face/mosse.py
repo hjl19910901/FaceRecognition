@@ -31,8 +31,9 @@ if PY3:
 
 import numpy as np
 import cv2 as cv
-from common import draw_str, RectSelector
-import video
+from face.common import draw_str, RectSelector
+from face import video
+
 
 def rnd_warp(a):
     h, w = a.shape[:2]

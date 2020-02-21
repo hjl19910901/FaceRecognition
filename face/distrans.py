@@ -17,7 +17,7 @@ from __future__ import print_function
 import numpy as np
 import cv2 as cv
 
-from common import make_cmap
+from face.common import make_cmap
 
 if __name__ == '__main__':
     import sys

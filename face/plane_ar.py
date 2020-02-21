@@ -27,10 +27,9 @@ from __future__ import print_function
 
 import numpy as np
 import cv2 as cv
-import video
-import common
-from plane_tracker import PlaneTracker
-from video import presets
+from face import common, video
+from face.plane_tracker import PlaneTracker
+from face.video import presets
 
 # Simple model of a house - cube with a triangular prism "roof"
 ar_verts = np.float32([[0, 0, 0], [0, 1, 0], [1, 1, 0], [1, 0, 0],

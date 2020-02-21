@@ -19,7 +19,7 @@ from __future__ import print_function
 
 import numpy as np
 import cv2 as cv
-from common import anorm, getsize
+from face.common import anorm
 
 FLANN_INDEX_KDTREE = 1  # bug: flann enums are missing
 FLANN_INDEX_LSH    = 6

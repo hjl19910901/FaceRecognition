@@ -18,7 +18,7 @@ from __future__ import print_function
 
 import numpy as np
 import cv2 as cv
-import video
+from face import video
 
 
 def draw_flow(img, flow, step=16):

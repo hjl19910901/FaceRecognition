@@ -22,8 +22,8 @@ if PY3:
 
 import numpy as np
 import cv2 as cv
-import video
-from common import nothing, getsize
+from face import video
+from face.common import nothing, getsize
 
 def build_lappyr(img, leveln=6, dtype=np.int16):
     img = dtype(img)

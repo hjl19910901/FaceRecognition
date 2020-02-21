@@ -15,7 +15,7 @@ import cv2 as cv
 import sys
 
 # local modules
-import video
+from face import video
 
 if __name__ == '__main__':
 

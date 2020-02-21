@@ -23,11 +23,10 @@ r     - toggle RANSAC
 # Python 2/3 compatibility
 from __future__ import print_function
 
-import numpy as np
 import cv2 as cv
-import video
-from common import draw_str
-from video import presets
+from face import video
+from face.common import draw_str
+from face.video import presets
 
 lk_params = dict( winSize  = (19, 19),
                   maxLevel = 2,

@@ -23,9 +23,8 @@ from __future__ import print_function
 
 import numpy as np
 import cv2 as cv
-import video
-from common import anorm2, draw_str
-from time import clock
+from face import video
+from face.common import draw_str
 
 lk_params = dict( winSize  = (15, 15),
                   maxLevel = 2,

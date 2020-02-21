@@ -17,7 +17,7 @@ if PY3:
 
 import numpy as np
 import cv2 as cv
-from common import draw_str
+from face.common import draw_str
 import getopt, sys
 from itertools import count
 

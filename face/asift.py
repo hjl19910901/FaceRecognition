@@ -30,8 +30,8 @@ import itertools as it
 from multiprocessing.pool import ThreadPool
 
 # local modules
-from common import Timer
-from find_obj import init_feature, filter_matches, explore_match
+from face.common import Timer
+from face.find_obj import init_feature, filter_matches, explore_match
 
 
 def affine_skew(tilt, phi, img, mask=None):

@@ -38,11 +38,11 @@ from numpy import pi, sin, cos
 import cv2 as cv
 
 # built-in modules
-from time import clock
 
 # local modules
-from tst_scene_render import TestSceneRender
-import common
+from face.tst_scene_render import TestSceneRender
+from face import common
+
 
 class VideoSynthBase(object):
     def __init__(self, size=None, noise=0.0, bg = None, **params):

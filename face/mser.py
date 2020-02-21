@@ -14,9 +14,8 @@ Keys:
 
 '''
 
-import numpy as np
 import cv2 as cv
-import video
+from face import video
 import sys
 
 if __name__ == '__main__':

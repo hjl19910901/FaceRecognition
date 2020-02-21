@@ -27,7 +27,7 @@ from __future__ import print_function
 
 import numpy as np
 import cv2 as cv
-from common import Sketcher
+from face.common import Sketcher
 
 class App:
     def __init__(self, fn):

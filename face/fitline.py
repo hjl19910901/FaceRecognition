@@ -34,7 +34,7 @@ import cv2 as cv
 import itertools as it
 
 # local modules
-from common import draw_str
+from face.common import draw_str
 
 
 w, h = 512, 256

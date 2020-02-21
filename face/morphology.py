@@ -17,7 +17,6 @@ from __future__ import print_function
 import sys
 PY3 = sys.version_info[0] == 3
 
-import numpy as np
 import cv2 as cv
 
 
@@ -26,7 +25,7 @@ if __name__ == '__main__':
 
     import sys
     from itertools import cycle
-    from common import draw_str
+    from face.common import draw_str
 
     try:
         fn = sys.argv[1]

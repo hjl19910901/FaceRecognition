@@ -37,7 +37,6 @@ import numpy as np
 import cv2 as cv
 
 # local module
-from common import nothing
 
 
 def blur_edge(img, d=31):

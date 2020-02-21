@@ -10,12 +10,11 @@ USAGE:
 # Python 2/3 compatibility
 from __future__ import print_function
 
-import numpy as np
 import cv2 as cv
 
 # local modules
-from video import create_capture
-from common import clock, draw_str
+from face.video import create_capture
+from face.common import clock, draw_str
 
 
 def detect(img, cascade):

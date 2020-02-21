@@ -18,14 +18,13 @@ Keyboard shortcuts:
 # Python 2/3 compatibility
 from __future__ import print_function
 
-import numpy as np
 import cv2 as cv
 
 from multiprocessing.pool import ThreadPool
 from collections import deque
 
-from common import clock, draw_str, StatValue
-import video
+from face.common import clock, draw_str, StatValue
+from face import video
 
 
 class DummyTask:

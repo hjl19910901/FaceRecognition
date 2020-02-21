@@ -36,9 +36,8 @@ import cv2 as cv
 from collections import namedtuple
 
 # local modules
-import video
-import common
-from video import presets
+from face import common, video
+from face.video import presets
 
 
 FLANN_INDEX_KDTREE = 1

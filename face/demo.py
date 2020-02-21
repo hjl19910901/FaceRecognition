@@ -10,7 +10,7 @@ import sys
 PY3 = sys.version_info[0] == 3
 
 # local modules
-from common import splitfn
+from face.common import splitfn
 
 # built-in modules
 import webbrowser

@@ -16,7 +16,7 @@ from __future__ import print_function
 import numpy as np
 import cv2 as cv
 
-from gaussian_mix import make_gaussians
+from face.gaussian_mix import make_gaussians
 
 if __name__ == '__main__':
     cluster_n = 5

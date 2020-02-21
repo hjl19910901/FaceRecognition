@@ -17,7 +17,7 @@ import cv2 as cv
 import numpy as np
 
 # relative module
-import video
+from face import video
 
 # built-in module
 import sys

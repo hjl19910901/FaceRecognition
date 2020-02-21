@@ -20,7 +20,7 @@ import numpy as np
 import cv2 as cv
 
 # local modules
-from common import splitfn
+from face.common import splitfn
 
 # built-in modules
 import os

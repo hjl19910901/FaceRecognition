@@ -29,11 +29,10 @@ import numpy as np
 import cv2 as cv
 
 # local modules
-import video
-from video import presets
-import common
-from common import getsize, draw_keypoints
-from plane_tracker import PlaneTracker
+from face.video import presets
+from face import common, video
+from face.common import getsize, draw_keypoints
+from face.plane_tracker import PlaneTracker
 
 
 class App:
