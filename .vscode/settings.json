@@ -1,0 +1,10 @@
+{
+   
+
+
+    "python.autoComplete.extraPaths": [
+        　　　　"C:/Python37/Lib/site-packages",
+        　　　　"C:/Python37/Scripts",
+        　　],
+        "python.pythonPath": "C:\\Python37\\python.exe"
+}
